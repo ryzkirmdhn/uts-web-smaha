@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Berita Seputar SMA Harapan Akhirat</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div id="header-placeholder"></div>
+    </header>
+
+    <main role="main">
+      <section class="page-hero">
+        <div class="container">
+          <div class="eyebrow">Kabar dan informasi</div>
+          <h1>Berita Sekolah</h1>
+          <p class="mb-0">Informasi, kegiatan, dan pengumuman dari SMA HA Palembang.</p>
+        </div>
+      </section>
+
+      <section class="content-wrap">
+        <div class="container">
+          <div class="row">
+            
+            <!-- Card 1: With Image -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="news-card">
+                <img class="card-img-top" src="assets/img/olimpiade.jpg" alt="Juara Umum Olimpiade Sains">
+                <div class="card-body">
+                  <small class="text-muted">20 Oct 2026</small>
+                  <h2 class="h5 mt-2">Juara Umum Olimpiade Sains</h2>
+                  <p>Siswa SMA HA Palembang berhasil meraih juara umum pada ajang Olimpiade Sains tingkat provinsi tahun ini.</p>    
+                </div>
+              </article>
+            </div>
+
+            <!-- Card 2: Without Image (Fallback styling from your code) -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="news-card">
+                <!-- Added min-height so the fallback block acts like an image -->
+                <img class="card-img-top" src="assets/img/spmbsmaha.jpg" alt="Kegiatan Ekstrakurikuler">
+                <div class="card-body">
+                </div>
+                <div class="card-body">
+                  <small class="text-muted">18 Oct 2026</small>
+                  <h2 class="h5 mt-2">Penerimaan Siswa Baru 2027</h2>
+                  <p>Informasi lengkap mengenai jadwal, persyaratan, dan alur pendaftaran peserta didik baru.</p>            
+                </div>
+              </article>
+            </div>
+
+            <!-- Card 3: With Image -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="news-card">
+                <img class="card-img-top" src="assets/img/paskibraka.jpg" alt="Kegiatan Ekstrakurikuler">
+                <div class="card-body">
+                  <small class="text-muted">15 Oct 2026</small>
+                  <h2 class="h5 mt-2">Kegiatan Ekstrakurikuler Paskibraka</h2>
+                  <p>Persiapan rutin dan latihan gabungan tim Paskibraka menjelang upacara peringatan Hari Pahlawan.</p>           
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </section>      
+      
+
+
+      <!-- FOOTER -->
+      <div id="footer-placeholder"></div>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+  
+    <!-- script header footer -->
+    <script> fetch('includes/header.html')
+              .then(response => response.text())
+              .then(data => {
+                  document.getElementById('header-placeholder').innerHTML = data;
+              });</script>
+    <script> fetch('includes/footer.html')
+              .then(response => response.text())
+              .then(data => {
+                  document.getElementById('footer-placeholder').innerHTML = data;
+              });</script>
+  </body>
+</html>

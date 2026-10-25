@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Galeri Sekolah</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div id="header-placeholder"></div>
+    </header>
+
+    <main role="main">
+      <section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Dokumentasi kegiatan</div>
+    <h1>Galeri Sekolah</h1>
+    <p class="mb-0">Momen dan kegiatan SMA Harapan Akhirat Palembang.</p>
+  </div>
+</section>
+
+<section class="content-wrap">
+  <div class="container">
+    <div class="row">
+
+      <!-- CONTOH 1: Galeri dengan Judul & Deskripsi -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="gallery-card">
+          <img class="gallery-img" src="assets/img/galeri1.jpg" alt="Upacara Bendera Hari Senin">
+          <div class="card-body">
+            <h2 class="h6 mb-0">Upacara Bendera Hari Senin</h2>
+            <p class="text-muted small mt-2 mb-0">Pelaksanaan upacara rutin mingguan yang diikuti oleh seluruh siswa dan guru dengan khidmat.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTOH 2: Galeri dengan Judul & Deskripsi Singkat -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="gallery-card">
+          <img class="gallery-img" src="assets/img/galeri2.jpg" alt="Kegiatan Ekstrakurikuler Pramuka">
+          <div class="card-body">
+            <h2 class="h6 mb-0">Kegiatan Ekstrakurikuler Pramuka</h2>
+            <p class="text-muted small mt-2 mb-0">Latihan dasar kepemimpinan dan ketangkasan anggota pramuka pangkalan SMA.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTOH 3: Galeri TANPA Deskripsi (Hanya Judul) -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="gallery-card">
+          <img class="gallery-img" src="assets/img/galeri3.jpg" alt="Rapat Pleno Komite Sekolah">
+          <div class="card-body">
+            <h2 class="h6 mb-0">Rapat Komite Sekolah</h2>
+            <p class="text-muted small mt-2 mb-0">Rapat rutin dilakukan setiap akhir bulan</p>           
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <!-- isi sesuai page -->
+
+      
+      
+      
+
+
+      <!-- FOOTER -->
+      <div id="footer-placeholder"></div>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+  
+    <!-- script header footer -->
+    <script> fetch('includes/header.html')
+              .then(response => response.text())
+              .then(data => {
+                  document.getElementById('header-placeholder').innerHTML = data;
+              });</script>
+    <script> fetch('includes/footer.html')
+              .then(response => response.text())
+              .then(data => {
+                  document.getElementById('footer-placeholder').innerHTML = data;
+              });</script>
+  </body>
+</html>
