@@ -67,6 +67,19 @@ body {
   letter-spacing: -.05rem;
 }
 
+/* Remed*/ 
+.map-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.map-container iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
